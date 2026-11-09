@@ -1,0 +1,40 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# ML / Data
+ml/data/raw/
+ml/data/processed/
+*.pt
+*.pth
+*.onnx
+mlruns/
+mlartifacts/
+
+# IDE
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+.next/
+out/
+
+# Docker
+*.log
